@@ -1,0 +1,61 @@
+.dashboard {
+  padding: 20px;
+  background-color: #fff;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+}
+
+.dashboard-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.video-table {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.video-table-header,
+.video-table-row {
+  display: grid;
+  grid-template-columns: 100px 1fr 100px 150px 100px;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 14px;
+}
+
+.video-table-header {
+  font-weight: bold;
+  color: #606060;
+}
+
+.thumbnail {
+  width: 90px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.video-title {
+  font-weight: 500;
+  color: #000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.edit-btn {
+  background-color: #FF0000;
+  color: white;
+  padding: 6px 12px;
+  font-size: 12px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.edit-btn:hover {
+  background-color: #cc0000;
+}

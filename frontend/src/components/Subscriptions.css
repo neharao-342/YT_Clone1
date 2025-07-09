@@ -1,0 +1,10 @@
+.subscriptions-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.subscriptions-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}

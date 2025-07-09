@@ -1,0 +1,15 @@
+.history-container {
+  padding: 40px;
+  background-color: var(--yt-bg-light);
+  color: var(--yt-dark-gray);
+  font-family: 'Roboto', sans-serif;
+}
+.history-container h2 {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+.history-container p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #606060;
+}
